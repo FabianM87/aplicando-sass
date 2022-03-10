@@ -1,0 +1,160 @@
+@charset "UTF-8";
+header {
+  background-image: linear-gradient(#4d4d4d, #808080, #b3b3b3, #e6e6e6);
+  font-size: large;
+  animation: header 10s linear infinite alternate both;
+  animation: header 10s linear infinite alternate both; }
+
+.navbar-collapse {
+  justify-content: flex-end; }
+
+a {
+  text-decoration: none;
+  color: #0077C8; }
+  a:hover {
+    color: #4d4d4d; }
+
+li {
+  list-style: none;
+  margin: 10px; }
+
+@keyframes header {
+  0% {
+    background: #808080; }
+  100% {
+    background: #e6e6e6; } }
+
+@keyframes header {
+  0% {
+    background: #e6e6e6; }
+  100% {
+    background: #808080; } }
+
+footer {
+  background-image: linear-gradient(#e6e6e6, #b3b3b3, #808080, #4d4d4d);
+  padding-top: 5px;
+  font-size: large; }
+
+a {
+  text-decoration: none;
+  color: #0077C8; }
+
+a:hover {
+  color: #4d4d4d; }
+
+li {
+  list-style: none;
+  margin: 10px; }
+
+.titulo__principal {
+  color: #0e5487;
+  font-size: 50px;
+  text-shadow: 2px 1px #072e4a; }
+
+.subtitulo-index {
+  font-size: 40px;
+  color: #0e5487;
+  text-shadow: 2px 1px #072e4a; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Source Sans Pro'; }
+
+body {
+  text-align: center; }
+
+.imgstaff {
+  margin: 25px; }
+
+.main-principal {
+  background-image: url(https://media.istockphoto.com/photos/in-the-hospital-closeup-shot-of-the-doctor-does-ultrasound-sonogram-picture-id996271208?b=1&k=20&m=996271208&s=170667a&w=0&h=B68a46sXGIXJ8HalP3s6MOjJbuLSrLbbTu0NPI3J9po=);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 250px;
+  padding-bottom: 5px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 100%; }
+
+.imagenes {
+  background-image: url(https://media.istockphoto.com/photos/surgeon-and-anesthetist-doctor-er-surgical-team-with-medical-clinic-picture-id1072286960?k=20&m=1072286960&s=612x612&w=0&h=xy2hzymNd3UGCEPjKjY9pkBKA_2R_po1nhfC-e-KC60=);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: right; }
+
+.main-servicios {
+  background-image: url(https://media.istockphoto.com/photos/ultrasound-examination-in-doctors-office-picture-id614051978?k=20&m=614051978&s=612x612&w=0&h=c4CIqN82F0itjV-bBI-zOb1KMOyQ6s597S9YOxbBgQ8=);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: -webkit-right; }
+
+.resultados {
+  background-image: url(https://media.istockphoto.com/photos/accessible-information-is-crucial-for-current-medical-research-picture-id1287845968?b=1&k=20&m=1287845968&s=170667a&w=0&h=B3ucd3Y_G2SqLgz1wjKtEUY6brC0gRAx1bQUypz8nmc=);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: right;
+  padding: 150px; }
+
+/* DESKTOP*/
+@media (max-width: 1200px) {
+  /*uso bg solo para guiarme en los tamaños despues se quitan*/
+  body {
+    background-color: red; }
+  .texto-imagenes {
+    font-size: 28px; }
+  .staff {
+    color: #0e5487;
+    font-size: 50px;
+    text-shadow: 2px 1px #072e4a;
+    justify-content: center; } }
+
+/*medium*/
+@media (max-width: 992px) {
+  /*uso bg solo para guiarme en los tamaños despues se quitan*/
+  body {
+    background-color: yellow; }
+  .video {
+    width: 50%; }
+  .titulo__principal {
+    color: #0e5487;
+    font-size: 45px;
+    text-shadow: 2px 1px #072e4a; }
+  .subtitulo-index {
+    font-size: 35px;
+    color: #0e5487;
+    text-shadow: 2px 1px #072e4a; }
+  .texto-imagenes {
+    font-size: 24px; }
+  .staff {
+    color: #0e5487;
+    font-size: 40px;
+    text-shadow: 2px 1px #072e4a;
+    justify-content: center; } }
+
+/*mobile*/
+@media (max-width: 551px) {
+  /*uso bg solo para guiarme en los tamaños despues se quitan*/
+  body {
+    background-color: green; }
+  header {
+    font-size: small; }
+  footer {
+    font-size: small; }
+  .titulo__principal {
+    color: #0e5487;
+    font-size: 35px;
+    text-shadow: 2px 1px #072e4a; }
+  .subtitulo-index {
+    font-size: 30px;
+    color: #0e5487;
+    text-shadow: 2px 1px #072e4a; }
+  .texto-imagenes {
+    font-size: 20px; }
+  .staff {
+    color: #0e5487;
+    font-size: 30px;
+    text-shadow: 2px 1px #072e4a;
+    justify-content: center; } }
