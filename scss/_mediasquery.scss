@@ -1,19 +1,15 @@
 
 /* DESKTOP*/
 @media (max-width: 1200px) { 
-	/*uso bg solo para guiarme en los tamaños despues se quitan*/
-body {
-	background-color: red;
-} 
 
 
 .texto-imagenes{
 	font-size: 28px;
 }
 .staff{ 
-   color: #0e5487;
+   color: $colorPrincipal;
 	 font-size: 50px;
-	 text-shadow: 2px 1px #072e4a;
+	 text-shadow: 2px 1px $colorSombra;
 	 
 	justify-content: center;
 	;
@@ -22,33 +18,29 @@ body {
 }
 /*medium*/
 @media (max-width: 992px) { 
-	/*uso bg solo para guiarme en los tamaños despues se quitan*/
-body{
-	background-color: yellow;
 	
-}	
 .video{
 	width: 50%;
 } 
 .titulo__principal{
-	color: #0e5487;
+	color: $colorPrincipal;
 	font-size: 45px;
-	text-shadow: 2px 1px #072e4a;
+	text-shadow: 2px 1px $colorSombra;
 	
 	
 }
 .subtitulo-index {
 	font-size: 35px;
-	color: #0e5487;
-	text-shadow: 2px 1px #072e4a;
+	color: $colorPrincipal;
+	text-shadow: 2px 1px $colorSombra;
 }
 .texto-imagenes{
 	font-size: 24px;
 }
 .staff{ 
-   color: #0e5487;
+   color: $colorPrincipal;
 	 font-size: 40px;
-	 text-shadow: 2px 1px #072e4a;
+	 text-shadow: 2px 1px $colorSombra;
 	 
 	justify-content: center;
 	;
@@ -56,10 +48,7 @@ body{
 }
 /*mobile*/
 @media (max-width: 551px) {
-/*uso bg solo para guiarme en los tamaños despues se quitan*/ 
-	body {
-		background-color: green;
-	}
+
 header {
 	font-size: small;
 
@@ -69,24 +58,24 @@ footer {
 }
 
 .titulo__principal{
-	color: #0e5487;
+	color: $colorPrincipal;
 	font-size: 35px;
-	text-shadow: 2px 1px #072e4a;
+	text-shadow: 2px 1px $colorSombra;
 	
 	
 }
 .subtitulo-index {
 	font-size: 30px;
-	color: #0e5487;
-	text-shadow: 2px 1px #072e4a;
+	color: $colorPrincipal;
+	text-shadow: 2px 1px $colorSombra;
 }
 .texto-imagenes{
 	font-size: 20px;
 }
 .staff{ 
-   color: #0e5487;
+   color: $colorPrincipal;
 	 font-size: 30px;
-	 text-shadow: 2px 1px #072e4a;
+	 text-shadow: 2px 1px $colorSombra;
 	 
 	justify-content: center;
 	;

@@ -1,10 +1,10 @@
 .titulo__principal{
-	color: #0e5487;
+	color: $colorPrincipal;
 	font-size: 50px;
-	text-shadow: 2px 1px #072e4a;
+	text-shadow: 2px 1px $colorSombra;
 }
 .subtitulo-index {
 	font-size: 40px;
-	color: #0e5487;
-	text-shadow: 2px 1px #072e4a;
+	color: $colorPrincipal;
+	text-shadow: 2px 1px $colorSombra;
 }
