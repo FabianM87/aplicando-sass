@@ -1,0 +1,26 @@
+@mixin redes {
+	cursor: pointer;
+	margin: 10px;
+	
+
+
+}
+$rrss:(
+	nav-footer:$colorPrincipal,
+   
+);
+
+@each $red, $color in $rrss{
+	.icon-#{$red}{
+		color:$color;
+		@include redes;
+
+	}
+
+}
+@for $i from 3 to 11 {
+	.fnt-#{$i}{
+		font-size: $i *5px;
+	}
+
+}
