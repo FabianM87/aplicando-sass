@@ -1,5 +1,5 @@
 /*mobile*/
-@media (max-width: 551px) {
+@media only screen and (min-width: 359px) and (max-width: 740px){
 
 header {
 	font-size: small;
@@ -24,13 +24,28 @@ footer {
 .texto-imagenes{
 	font-size: 20px;
 }
-.staff{ 
+.presentacion_imagenes{
+	font-size: small;
+	flex-wrap: wrap;
+	margin: 15px;
+	padding: 10px;
+
+
+}
+.parrafo__nosotros{
+text-align: center;
+font-size: 10px;
+}
+
+
+.h1Staff{ 
    color: $colorPrincipal;
-	 font-size: 30px;
+	 font-size: 40px;
 	 text-shadow: 2px 1px $colorSombra;
 	 
 	justify-content: center;
-	;
+   margin: 15px;
+	
 }
 .titulo_servicios{
  	font-size: 25px;
@@ -39,10 +54,23 @@ footer {
 .parrafo-servicios{
 font-size: 15px;
 }
- 
+.nosotros{
+	display: none;
 }
+.form-control{
+	width: 150px;
+}
+.resultados{
+	background-image:none;
+	margin: 0px;
+	margin-left: 80px;
+	padding: 0px;
+	font-size: 20px;
+}
+
+ }
 /*medium*/
-@media only screen and (min-width: 552px) and (max-width: 992px) { 
+@media only screen and (min-width: 741px) and (max-width: 992px) { 
 	
 .video{
 	width: 50%;
@@ -74,11 +102,13 @@ font-size: 15px;
  	font-size: 30px;
 
  }
+
 }
 
 
+
 /* DESKTOP*/
-@media only screen and (min-width: 992px) { 
+@media only screen and (min-width: 993px) { 
 
 
 .texto-imagenes{
@@ -90,10 +120,10 @@ font-size: 15px;
 	 text-shadow: 2px 1px $colorSombra;
 	 
 	justify-content: center;
-	;
+	
 }
 .main-servicios{
   font-size: 29px;
 }
-    
 }
+
